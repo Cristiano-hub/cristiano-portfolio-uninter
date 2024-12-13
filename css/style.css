@@ -1,0 +1,140 @@
+/*
+****** LIMPAR FORMATAÇÕES ******
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+****** FORMATAÇÕES GENÉRICAS ******
+*/
+body{
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c4c4c47e;
+}
+
+h1{
+    color: #c4c4c4fd;
+    font-size: 35px;
+}
+
+h2{
+    color: #0047cc;
+}
+
+h3{
+    color: #565656;
+    background: #c4c4c4fd;
+    padding: 5px;
+}
+
+
+/*
+****** HEADER ******
+*/
+#header{
+    background-color: #1f00cc;
+    padding: 5px;
+    text-align: center;
+}
+
+#Logo, #Menu{
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{
+    color: #ffffff;
+    padding: 8px 12px;
+}
+
+#header a:houver{
+    color: #0066CC;
+    background: #ffffff00;
+    text-decoration: none;
+}
+
+.white{
+    color: c4c4c4fd;
+} 
+
+/*
+****** CONTENT ******
+*/
+#content{
+    width: 650px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts{
+    width: 660px;
+    float: left; 
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    text-align: justify;
+}
+
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid #0066CC;
+    padding-bottom: block;
+    margin-bottom: inline-block;
+    display: block;
+}
+
+.img-post{
+    width: 620px;
+    
+}
+
+/*
+****** RIGHT SIDE ******
+*/
+#right-side{
+    width: 240px;
+    float: right;
+} 
+
+.content-right{
+    background: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post-right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+/*
+****** FORMATAÇÃO LINK ******
+*/
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #0066CC;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*
+****** FOOTER ******
+*/
+#footer{
+    clear:both;
+    text-align: center;
+    padding: 15px;
+    background: #FFFFFF;
+    color: #0066CC;
+}
